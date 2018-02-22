@@ -1,19 +1,19 @@
 {
-  "name": "tilt-scan",
-  "version": "1.0.2",
-  "description": "Nodejs Command Line Utility to read Tilt Hydrometers",
+  "name": "tilt-send-data",
+  "version": "1.0.0",
+  "description": "Nodejs Command Line Utility to read Tilt Hydrometers and Post data to a Cloud Service",
   "main": "index.js",
   "dependencies": {
     "bleacon": "^0.4.0",
-    "commander": "^2.9.0",
-    "request": "^2.78.0"
+    "commander": "^2.14.1",
+    "request": "^2.83.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tbryant/tilt-scan.git"
+    "url": "git+https://github.com/mariacarlinahernandez/tilt-send-data.git"
   },
   "bin": {
-    "tilt-scan": "tilt-scan.js"
+    "tilt-send-data": "tilt-send-data.js"
   },
   "keywords": [
     "tilt",
@@ -22,10 +22,10 @@
     "hydrometer",
     "fermentation"
   ],
-  "author": "Tyler Bryant",
+  "author": "Maria Hernandez <maria@ubidots>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tbryant/tilt-scan/issues"
+    "url": "https://github.com/mariacarlinahernandez/tilt-send-data/issues"
   },
-  "homepage": "https://github.com/tbryant/tilt-scan#readme"
+  "homepage": "https://github.com/mariacarlinahernandez/tilt-send-data#readme"
 }
